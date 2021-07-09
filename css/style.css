@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -8,17 +9,22 @@ body {
   height: 100vh; /* View Port */
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background-image: linear-gradient(0deg, rgb(247,247,247), 24%, rgb(252, 221, 221) 93%);
+  background-image: linear-gradient(#ffe259, #ffa751);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+h1 {
+  font-weight: 700px;
+  font-size: 40px;
+}
+
 .music-container {
   background-color: #fff;
   border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+  box-shadow: 0 20px 20px 0 rgba(230, 227, 221, 0.719);
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -89,7 +95,7 @@ body {
 }
 
 .action-btn-big {
-  color: #cdc2d0;
+  color: #15031a;
   font-size: 30px;
 }
 
@@ -129,7 +135,7 @@ body {
 }
 
 .progress {
-  background-color: #fe8daa;
+  background-color: #000;
   border-radius: 5px;
   height: 100%;
   width: 0%;
